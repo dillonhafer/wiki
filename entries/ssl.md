@@ -26,7 +26,9 @@ openssl x509 -req -in client1.csr -out client1.crt -sha1 -CA <your>_ca.crt -CAke
 
 ## Verifying SSL email address
 
-SSL companies need to validate that you own a domain, but you don't want to pay for email service just to receive one email. Here is how you can configure postfix to receive email for admin@budgetal.com
+SSL companies need to validate that you own a domain, but you don't want to pay for email service just to receive one email. Here is how you can configure postfix to receive email for admin@example.com
+
+*(don't use example.com unless you own that domain)*
 
 1. Create an admin user.
 
@@ -34,7 +36,7 @@ SSL companies need to validate that you own a domain, but you don't want to pay 
 
 2. Tell postfix what domains you want to use.
 
-```sudo postconf -e "mydestination = budgetal.com"```
+```sudo postconf -e "mydestination = example.com"```
 
 3. Tell postfix to listen on internet
 
@@ -44,7 +46,7 @@ SSL companies need to validate that you own a domain, but you don't want to pay 
 
 ```sudo service postfix restart```
 
-Now you can receive email at admin@budgetal.com
+Now you can receive email at admin@example.com
 
 type: ```mail``` when logged into the admin user to check email.
 
@@ -55,15 +57,15 @@ UPDATE: check out http://www.binarytides.com/postfix-mail-forwarding-debian/
 *Problem:* Apache allows you to declare an intermediate SSL certificate, but Nginx does not. Instead, nginx wants you to mush all your certs together.
 
 ```
-cp budgetal_com.crt budgetal_com.chained.crt
-cat AddTrustExternalCARoot.crt >> budgetal_com.chained.crt
-cat COMODORSAAddTrustCA.crt >> budgetal_com.chained.crt
-cat COMODORSADomainValidationSecureServerCA.crt >> budgetal_com.chained.crt
+cp example_com.crt example_com.chained.crt
+cat AddTrustExternalCARoot.crt >> example_com.chained.crt
+cat COMODORSAAddTrustCA.crt >> example_com.chained.crt
+cat COMODORSADomainValidationSecureServerCA.crt >> example_com.chained.crt
 ```
 
 Shorthand for the above is like this:
 
 ```
-cp budgetal_com{,.chained}.crt &&
-cat AddTrustExternalCARoot.crt COMODORSAAddTrustCA.crt COMODORSADomainValidationSecureServerCA.crt >> budgetal_com.chained.crt
+cp example_com{,.chained}.crt &&
+cat AddTrustExternalCARoot.crt COMODORSAAddTrustCA.crt COMODORSADomainValidationSecureServerCA.crt >> example_com.chained.crt
 ```
