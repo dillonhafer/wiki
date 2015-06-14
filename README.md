@@ -26,7 +26,7 @@ Have fun!
 ## Security Helps
 
 * [OWASP](https://www.owasp.org/index.php/Top_10_2013)
-* [[Properly configure SSH]]
+* [Properly configure SSH](ssh.md)
 
 ## Linux
 
