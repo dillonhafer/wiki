@@ -2,7 +2,7 @@
 
 This is my personal collection of useful software development helps gathered over the years from various and random sources. I've aggregated things I use often, are hard to find, or don't exist.
 
-This wiki uses the [Markdown](http://daringfireball.net/projects/markdown/) syntax.
+This wiki uses the [Markdown](http://daringfireball.net/projects/markdown/) syntax, specifically [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown/).
 
 The wiki itself is actually a git repository, which means you can clone it, edit it locally/offline, add images or any other file type, and push it back to github. It will be live immediately.
 
@@ -14,8 +14,7 @@ $ git clone git@github.com:dillonhafer/wiki.git
 
 Wiki pages are normal files, with the .md extension. You can edit them locally, as well as creating new ones.
 
-You can check out the source of this page to see how that's done, and make sure to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short name' or the 'mimetype' of anything in there.
-[lexers]: http://pygments.org/docs/lexers/
+GitHub Flavored Markdown uses [Linguist](https://github.com/github/linguist) to perform language detection and syntax highlighting. You can find out which keywords are valid by perusing [the languages YAML file](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
 
 Have fun! 😄
 
