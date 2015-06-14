@@ -16,7 +16,7 @@ The git repository can be accessed at https://github.com/dillonhafer/wiki. Conne
 ## Checking out an existing repository
 
 ```
-git clone ssh://git@bitbucket.org:boondockwalker/existing-repo.git
+git clone ssh://git@github.com:dillonhafer/existing-repo.git
 ```
 
 ## Basic Workflow
