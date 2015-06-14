@@ -4,12 +4,12 @@
 
 This wiki uses the [Markdown](http://daringfireball.net/projects/markdown/) syntax.
 
-The wiki itself is actually a git repository, which means you can clone it, edit it locally/offline, add images or any other file type, and push it back to us. It will be live immediately.
+The wiki itself is actually a git repository, which means you can clone it, edit it locally/offline, add images or any other file type, and push it back to github. It will be live immediately.
 
 Go ahead and try:
 
 ```
-$ git clone git@bitbucket.org:dhafer/wiki.git/wiki
+$ git clone git@github.com:dillonhafer/wiki.git
 ```
 
 Wiki pages are normal files, with the .md extension. You can edit them locally, as well as creating new ones.
