@@ -1,6 +1,6 @@
-# My Software Development Wiki
-
 ## Wiki features
+
+This is my personal collection of useful software development helps gathered over the years from various and random sources. I've aggregated things I use often, are hard to find, or don't exist.
 
 This wiki uses the [Markdown](http://daringfireball.net/projects/markdown/) syntax.
 
@@ -17,7 +17,7 @@ Wiki pages are normal files, with the .md extension. You can edit them locally, 
 You can check out the source of this page to see how that's done, and make sure to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short name' or the 'mimetype' of anything in there.
 [lexers]: http://pygments.org/docs/lexers/
 
-Have fun!
+Have fun! 😄
 
 ## GIT SCM
 
