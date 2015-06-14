@@ -1,4 +1,4 @@
-# The Software Development Wiki
+# My Software Development Wiki
 
 ## Wiki features
 
@@ -17,7 +17,6 @@ Wiki pages are normal files, with the .md extension. You can edit them locally, 
 You can check out the source of this page to see how that's done, and make sure to bookmark [the vast library of Pygment lexers][lexers], we accept the 'short name' or the 'mimetype' of anything in there.
 [lexers]: http://pygments.org/docs/lexers/
 
-
 Have fun!
 
 ## GIT SCM
@@ -28,27 +27,6 @@ Have fun!
 
 * [OWASP](https://www.owasp.org/index.php/Top_10_2013)
 * [[Properly configure SSH]]
-
-## Servers
-
-* [[Rails apps in production]]
-* [[Various Boondock Computers]]
-* [[Boondock Dev Server]]
-* [[Boondock Staging Server]]
-* [[Boondock File Server]]
-* [[Johnsonite Production Server]]
-* [[Johnsonite SQL Server]]
-* [[Johnsonite QA Server]]
-
-## VPN Documentation
-
-* [[Johnsonite Network VPN]]
-* [[Boondock Walker Network VPN]]
-
-## Useful File Locations
-
-* [[Boondock Staging]]
-* [[Johnsonite Production]]
 
 ## Linux
 
@@ -90,9 +68,8 @@ Have fun!
 * [[Windows]]
 * [[rdiff-backup]]
 * [[Finding a rogue daemonized process]]
-* [[SASS]]
-* [SASS][]
+* [SASS](sass.md)
 
 ## Windows
 
-* [[Setting up a DotNetNuke development environment]]
+* [Setting up a DotNetNuke development environment](setting-up-dnn-development-env.md)
