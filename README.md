@@ -21,12 +21,12 @@ Have fun!
 
 ## GIT SCM
 
-* [Git Helps](git-helps.md)
+* [Git Helps](entries/git-helps.md)
 
 ## Security Helps
 
 * [OWASP](https://www.owasp.org/index.php/Top_10_2013)
-* [Properly configure SSH](ssh.md)
+* [Properly configure SSH](entries/ssh.md)
 
 ## Linux
 
