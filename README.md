@@ -22,7 +22,7 @@ Have fun!
 
 ## GIT SCM
 
-* [[Git Helps]]
+* [Git Helps](git-helps.md)
 
 ## Security Helps
 
