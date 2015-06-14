@@ -23,10 +23,11 @@ Have fun!
 
 * [Git Helps](entries/git-helps.md)
 
-## Security Helps
+## Security
 
-* [OWASP](https://www.owasp.org/index.php/Top_10_2013)
+* [OWASP](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 * [Properly configure SSH](entries/ssh.md)
+* [SSL](entries/ssl.md)
 
 ## Linux
 
@@ -62,7 +63,6 @@ Have fun!
 ## Misc.
 
 * [[SFTP Only]]: how to set up locked down SFTP access
-* [[SSL Infrastructure]]
 * [[Web Benchmarking]]
 * [[WordPress]]
 * [[Windows]]
