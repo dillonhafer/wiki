@@ -12,7 +12,7 @@ Go ahead and try:
 $ git clone git@github.com:dillonhafer/wiki.git
 ```
 
-Wiki pages are normal files, with the .md extension. You can edit them locally, as well as creating new ones.
+Wiki pages are normal files, with the `.md` extension. You can edit them locally, as well as creating new ones.
 
 GitHub Flavored Markdown uses [Linguist](https://github.com/github/linguist) to perform language detection and syntax highlighting. You can find out which keywords are valid by perusing [the languages YAML file](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml).
 
@@ -27,6 +27,18 @@ Have fun! 😄
 * [OWASP](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project)
 * [Properly configure SSH](entries/ssh.md)
 * [SSL](entries/ssl.md)
+
+## Database
+
+* [[PostgreSQL]]
+
+## Ruby
+
+* [[Ruby on Rails Setup on Ubuntu]]: info on normal setup of ruby and rails on Ubuntu client/server
+* [[Ruby on Rails Setup on OSX]]: info on normal setup of ruby and rails on OSX client/server
+* [[Ruby on Rails Setup on Windows]]: info on normal setup of ruby and rails on Windows client/server
+* [[Redmine]]
+* [[Deploying Rails apps to bluehost]]
 
 ## Linux
 
@@ -47,19 +59,15 @@ Have fun! 😄
 * [[UFW]]: info on Ubuntu's Uncomplicated Firewall
 * [[root]]: how to make yourself root
 
-## Database
+## OSX
 
-* [[PostgreSQL]]
+* [Enable ScreenSharing from terminal](entries/screen-sharing-terminal.md)
 
-## Ruby
+## Windows
 
-* [[Ruby on Rails Setup on Ubuntu]]: info on normal setup of ruby and rails on Ubuntu client/server
-* [[Ruby on Rails Setup on OSX]]: info on normal setup of ruby and rails on OSX client/server
-* [[Ruby on Rails Setup on Windows]]: info on normal setup of ruby and rails on Windows client/server
-* [[Redmine]]
-* [[Deploying Rails apps to bluehost]]
+* [Setting up a DotNetNuke development environment](entries/setting-up-dnn-development-env.md)
 
-## Misc.
+## Miscellany
 
 * [[SFTP Only]]: how to set up locked down SFTP access
 * [[Web Benchmarking]]
@@ -67,8 +75,4 @@ Have fun! 😄
 * [[Windows]]
 * [[rdiff-backup]]
 * [[Finding a rogue daemonized process]]
-* [SASS](sass.md)
-
-## Windows
-
-* [Setting up a DotNetNuke development environment](setting-up-dnn-development-env.md)
+* [SASS](entries/sass.md)
