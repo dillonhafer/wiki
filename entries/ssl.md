@@ -28,8 +28,6 @@ openssl x509 -req -in client1.csr -out client1.crt -sha1 -CA <your>_ca.crt -CAke
 
 SSL companies need to validate that you own a domain, but you don't want to pay for email service just to receive one email. Here is how you can configure postfix to receive email for admin@example.com
 
-*(don't use example.com unless you own that domain)*
-
 1. Create an admin user.
 
 ```sudo adduser admin```
