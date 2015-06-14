@@ -1,4 +1,4 @@
-## Enabled ScreenSharing from a terminal
+## Enable ScreenSharing from a terminal
 
 At some point you may need VNC access to your remote mac, but you never enabled it. This will let you enable VNC (screen sharing) from a local or SSH connection.
 
